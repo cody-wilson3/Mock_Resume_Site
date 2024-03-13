@@ -1,0 +1,249 @@
+
+
+body {
+    color:rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#top-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(196, 196, 196);
+    z-index:0;
+    font-weight: bold;
+    height:115px;
+}
+
+.squareContainerLeft {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    bottom:90px;
+    right: 440px;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+.squareContainerRight {
+    display: flex;
+    flex-direction:row-reverse;
+    position: relative;
+    bottom:170px;
+    left: 440px;
+    width: 40vw;
+    justify-content: space-around;
+}
+.square {
+    width:80px;
+    height: 80px;
+    z-index:2;
+    background-color:black;
+}
+
+.topelement {
+    margin:5px;
+}
+
+
+.circle {
+    background-color:rgb(0, 0, 0);
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.allWork {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Work {
+    text-align: center;
+    font-weight:900;
+    background-color: rgb(164, 162, 163);
+    width: 240px;
+    height: 185px;
+    border-radius: 20px;
+    border: thick double rgb(200, 200, 200);
+}
+#Cereal {
+    background-image: linear-gradient(to bottom, rgba(164, 162, 163, .8), rgba(164, 162, 163, 0.8)) , url("Cereal.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#ShoeShine {
+    background-image: linear-gradient(to bottom, rgba(164, 162, 163, .85), rgba(164, 162, 163, 0.85)) , url("ShoeShine.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#Paper {
+    background-image: linear-gradient(to bottom, rgba(164, 162, 163, .9), rgba(164, 162, 163, 0.9)) , url("Paper.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#Park {
+    background-image: linear-gradient(to bottom, rgba(164, 162, 163, .9), rgba(164, 162, 163, 0.9)) , url("Park.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#Sucker {
+    background-image: linear-gradient(to bottom, rgba(164, 162, 163, .8), rgba(164, 162, 163, 0.8)) , url("Sucker.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 20px solid rgb(0, 0, 0);
+}
+
+div {
+    z-index: 1;
+}
+
+#USU {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(229, 229, 229, 0.8)) , url("USU.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+
+#DHS {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(229, 229, 229, 0.8)) , url("DHS.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+
+#Fridge {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(229, 229, 229, 0.8)) , url("Fridge.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.allSchool{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.school {
+    text-align: center;
+    width:270px;
+    height:230px;
+    /* background-color:rgb(216, 208, 214); */
+    border-radius: 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    padding:5px;
+}
+
+.allTech {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.techItem {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px inset rgb(164, 162, 163);
+}
+#spacer {
+    width:fit-content;
+    height: 30px;
+}
+
+#python {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("Python.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#gitLab {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("Gitlab.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#java {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("Java.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#javascript {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("Javascript.jpg");
+    background-size:130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-color:rgb(239, 216, 29);
+}
+#CSS {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("CSS.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#HTML {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("HTML.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#UnixCommandLine {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("GitBash.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
+#Django {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("Django.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-size: 175px;
+}
+
+#CSharp {
+    background-image: linear-gradient(to bottom, rgba(203, 185, 194, 0), rgba(203, 185, 194, 0)) , url("CSharp.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: transparent;
+}
